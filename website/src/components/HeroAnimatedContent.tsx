@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 
-import compressoLogo from '../assets/compresso.png'
 import { TextBlurIn } from './effects/TextBlurIn'
 import { TextFade } from './effects/TextFade'
 import TextSlot from './effects/TextSlot'
@@ -11,7 +10,7 @@ function HeroAnimatedContent() {
     <>
       <ZoomInBounce>
         <img
-          src={compressoLogo.src}
+          src="/app-icon.png"
           alt="Compresso Logo"
           className="w-30 h-auto block  mx-auto!"
         />
